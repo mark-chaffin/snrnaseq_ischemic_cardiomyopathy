@@ -9,4 +9,4 @@ Code is separated into 3 folders:
 
 Within each folder, code is stored as sequential jupyter notebooks for main analyses.
 
-Upfront data processing (e.g., CellRanger, CellBender, scR-Invex) was performed using generic WDLs through the Terra platform that are publicly available via Additional analyses reported in the manuscript (e.g., compositional testing, pathway enrichment, cell-cell communication) were performed using default code from the specific tools reported in the methods without 
+Additional analyses reported in the manuscript (e.g., compositional testing, pathway enrichment, cell-cell communication) were performed using default code from the specific tools reported in the methods. No additional custom code was written for these analyses beyond basic data manipulation to format the data for input into these well documented tools. The combined analysis of DCM, HCM, ICM, and NF samples
